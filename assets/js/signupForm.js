@@ -5,4 +5,11 @@ signUpForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
   console.log("Formulario enviado");
+
+  //Obtener los datos del formulario mediante sus id
+  const email = signUpForm["signup-email"].value;
+  const password = signUpForm["signup-password"].value;
+
+  console.log(email);
+  console.log(password);
 });
