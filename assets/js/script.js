@@ -1,6 +1,5 @@
 //Importamos la app
-import { app } from "./firabase.js";
-
+import { app } from "./firebase.js";
 
 //importamos el archivo de registro
 import "./signupForm.js";
